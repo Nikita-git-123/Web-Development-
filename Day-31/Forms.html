@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Forms tag </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 style="text-align: center; color: chocolate;"> Online Registration Form </h1>
+        <form action="Target.html">
+           <label> Candidate's First Name : </label>  <input type="text" name="uname" required minlength="5" maxlength="10"> <br> <br>
+           <label> Enter Password : </label> <input type="password" name="pwd"> <br> <br>
+           <label> Enter Email : </label> <input type="email" name="umail" value="abc@gmail.com" readonly> <br> <br>
+           <label> Enter Age : </label> <input type="number" name="uage"  min="5" max="10"> <br> <br>
+           <label> Enter Phone : </label> <input type="tel" name="utel"> <br> <br> 
+           <label> Select Gender : </label> <br> <br> 
+           <input type="radio" name="gender" checked value="male"> Male 
+           <input type="radio" name="gender" checked value="female"> Female 
+           <input type="radio" name="gender" checked value="other"> Other <br> <br>
+           <label> Programming Languages Known : </label> 
+           <input type="checkbox" name="pl"> C++
+           <input type="checkbox" name="pl"> Java
+           <input type="checkbox" name="pl"> Python <br> <br>
+           <label> Enter DOB : </label> <input type="date" name="dob"> <br> <br> 
+           <label> Attach your file : </label> <input type="file" name="file"> <br> <br> 
+           <label> Social media : </label> 
+           LinkedIn : <input type="url" name="linkedin"> <br> <br>
+           Facebook : <input type="url" name="facebook"> <br> <br>
+           <input type="submit" name="button">
+        </form>
+    </body>
+</html>
